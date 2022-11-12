@@ -1,0 +1,204 @@
+.body{
+    margin: 0 auto;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: grey; */
+    float: left;
+}
+.logo{
+    width: 100%;
+    min-height: 100px;
+ /* background: red; */
+    float: left; 
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    left: 195px;
+    top: 30px;  
+}
+.menu{
+    width: 100%;
+    min-height: 100px;
+    /* background: yellowgreen; */
+    float: left;
+    border-bottom: 1px solid grey;
+    position: relative;
+}
+.rightp{
+    width: 100%;
+    min-height: 100px;
+    background: #253476;
+    backdrop-filter: blur(11.5px);
+    float: left;
+    position: relative;
+}
+.menu ul{
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    top:20px ;
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 18px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;    
+}
+.rightp p{
+    color: white;
+    line-height: 10px;
+    margin: 10px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 12px;
+}
+
+.rightp span{
+    color: white;
+    line-height: 10px;
+    margin: 10px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px; 
+    position: relative;
+    top: 12px;
+}
+
+
+.main{
+    width: 100%;
+    height: 300px;
+    background-image: url('./img/02-gigapixel-scale-2_00x\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 35px;
+    border-radius: 4%;
+    position: relative;
+}
+.main p{
+    text-transform: uppercase;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 138%;
+    position: absolute;
+    left: 380px;
+    top: 100px;
+    letter-spacing: 2px;
+    color: #27AE60;
+}
+.main span{
+    text-transform: uppercase;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 138%;
+    position: absolute;
+    left: 434px;
+    top: 150px;
+    letter-spacing: 2px;
+}
+.card{
+    /* background: grey; */
+    width: 100%;
+    height: 400px;
+    
+}
+.card1{
+    background: blue;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url('./img/Rectangle\ 36.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.card2{
+    background: red;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url('./img/Rectangle\ 76.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.card3{
+    background: green;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url('./img/Rectangle\ 78.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.cardyBE{
+    /* background: grey; */
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.card4{
+    background: blue;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url('./img/Rectangle\ 96.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.card5{
+    background: red;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url('./img/Rectangle\ 95.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.card6{
+    background: green;
+    width: 100%;
+    min-height: 400px;
+    background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+    border-radius: 15px;
+    background-image: url('./img/Rectangle\ 76.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+
+.line{
+    border: 1px dashed #CECECE;
+    width: 1140px;
+    height: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
